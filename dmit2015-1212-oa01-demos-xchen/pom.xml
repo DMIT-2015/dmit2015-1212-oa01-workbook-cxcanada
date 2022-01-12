@@ -87,7 +87,15 @@ under the License.
     </dependencies>
   </dependencyManagement>
 
+  // project dependencies
   <dependencies>
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+      <version>1.18.22</version>
+      <scope>provided</scope>
+    </dependency>
+
     <dependency>
       <groupId>jakarta.platform</groupId>
       <artifactId>jakarta.jakartaee-api</artifactId>
@@ -167,6 +175,7 @@ under the License.
         </plugins>
       </build>
 
+      // profile dependencies. These are the dependencies for a specific profile.
       <dependencies>
         <!-- Jersey -->
         <dependency>
