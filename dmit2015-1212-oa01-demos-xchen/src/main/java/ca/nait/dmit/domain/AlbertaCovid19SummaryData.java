@@ -20,7 +20,5 @@ public class AlbertaCovid19SummaryData {
     private int numberOfDeaths;
     private int numberOfVariantsOfConcern;
     private double percentPositivity;
+
 }
-
-
-
