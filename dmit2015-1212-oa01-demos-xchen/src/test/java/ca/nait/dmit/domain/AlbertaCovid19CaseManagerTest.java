@@ -23,6 +23,11 @@ class AlbertaCovid19CaseManagerTest {
     }
 
     @Test
+    void getSomething(){
+        System.out.println("hello");
+    }
+
+    @Test
     void activeCases() {
         assertEquals(64_129, caseManager.countTotalActiveCases());
     }

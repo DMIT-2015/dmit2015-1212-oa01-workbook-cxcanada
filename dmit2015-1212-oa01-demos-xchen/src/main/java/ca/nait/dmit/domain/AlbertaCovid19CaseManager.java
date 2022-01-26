@@ -11,6 +11,11 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
+/**
+ * @author: Xiao Chen
+ * @Version: Jan 23 2022
+*/
+
 public class AlbertaCovid19CaseManager {
 
     private static AlbertaCovid19CaseManager instance;
@@ -105,6 +110,5 @@ public class AlbertaCovid19CaseManager {
                 .filter(item -> item.isEmpty() == false)
                 .sorted()
                 .collect(Collectors.toList());
-
     }
 }
