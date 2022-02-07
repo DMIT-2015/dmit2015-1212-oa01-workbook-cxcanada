@@ -30,25 +30,25 @@ import java.util.Optional;
  * /webapi/TodoItems/{id}		DELETE			                                            Remove the TodoItem
  * <p>
  * <p>
- * curl -i -X GET http://localhost:8080/dmit2015-jaxrs-demo/webapi/TodoItems
+ * curl -i -X GET http://localhost:8080/dmit2015-1212-jaxrs-demo/webapi/TodoItems
  * <p>
- * curl -i -X GET http://localhost:8080/dmit2015-jaxrs-demo/webapi/TodoItems/1
+ * curl -i -X GET http://localhost:8080/dmit2015-1212-jaxrs-demo/webapi/TodoItems/1
  * <p>
- * curl -i -X POST http://localhost:8080//dmit2015-jaxrs-demo/webapi/TodoItems \
+ * curl -i -X POST http://localhost:8080//dmit2015-1212-jaxrs-demo/webapi/TodoItems \
  * -d '{"name":"Finish DMIT2015 Assignment 1","complete":false}' \
  * -H 'Content-Type:application/json'
  * <p>
- * curl -i -X GET http://localhost:8080/dmit2015-jaxrs-demo/webapi/TodoItems/4
+ * curl -i -X GET http://localhost:8080/dmit2015-1212-jaxrs-demo/webapi/TodoItems/4
  * <p>
- * curl -i -X PUT http://localhost:8080/dmit2015-jaxrs-demo/webapi/TodoItems/4 \
+ * curl -i -X PUT http://localhost:8080/dmit2015-1212-jaxrs-demo/webapi/TodoItems/4 \
  * -d '{"id":4,"name":"Demo DMIT2015 Assignment 1","complete":true}' \
  * -H 'Content-Type:application/json'
  * <p>
- * curl -i -X GET http://localhost:8080/dmit2015-jaxrs-demo/webapi/TodoItems/4
+ * curl -i -X GET http://localhost:8080/dmit2015-1212-jaxrs-demo/webapi/TodoItems/4
  * <p>
- * curl -i -X DELETE http://localhost:8080/dmit2015-jaxrs-demo/webapi/TodoItems/4
+ * curl -i -X DELETE http://localhost:8080/dmit2015-1212-jaxrs-demo/webapi/TodoItems/4
  * <p>
- * curl -i -X GET http://localhost:8080/dmit2015-jaxrs-demo/webapi/TodoItems/4
+ * curl -i -X GET http://localhost:8080/dmit2015-1212-jaxrs-demo/webapi/TodoItems/4
  */
 
 // ApplicationScoped: that this resource is created once until the application shuts down.
